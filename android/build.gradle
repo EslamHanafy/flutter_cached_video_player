@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.4'
     }
 }
 
@@ -27,10 +27,10 @@ project.getTasks().withType(JavaCompile){
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -44,9 +44,9 @@ android {
     }
 
     dependencies {
-        implementation 'com.google.android.exoplayer:exoplayer-core:2.17.1'
-        implementation 'com.google.android.exoplayer:exoplayer-hls:2.17.1'
-        implementation 'com.google.android.exoplayer:exoplayer-dash:2.17.1'
-        implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1'
+        implementation 'com.google.android.exoplayer:exoplayer-core:2.19.1'
+        implementation 'com.google.android.exoplayer:exoplayer-hls:2.19.1'
+        implementation 'com.google.android.exoplayer:exoplayer-dash:2.19.1'
+        implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.19.1'
     }
 }
