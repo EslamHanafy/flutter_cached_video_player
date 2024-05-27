@@ -7,7 +7,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.lazyarts.vikram.cached_video_player
+        package: io.flutter.plugins.videoplayer
         pluginClass: CachedVideoPlayerPlugin
       ios:
         pluginClass: CachedVideoPlayerPlugin
