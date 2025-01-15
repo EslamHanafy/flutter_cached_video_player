@@ -23,8 +23,8 @@ dependencies:
   # TODO(amirh): Revisit this (either update this part in the design or the pub tool).
   # https://github.com/flutter/flutter/issues/46264
 
-  video_player_android: ^2.3.5
-  video_player_avfoundation: ^2.5.6
+  video_player_android: ^2.7.15
+  video_player_avfoundation: ^2.6.6
   video_player_platform_interface: ">=6.1.0 <7.0.0"
   flutter:
     sdk: flutter
